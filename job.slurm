@@ -11,4 +11,4 @@
 #SBATCH --mail-user=hdusab@lsuhsc.edu
 
 module purge
-python test.py
+python3 test.py
