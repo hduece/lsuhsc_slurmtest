@@ -11,4 +11,5 @@
 #SBATCH --mail-user=hdusab@lsuhsc.edu
 
 module purge
-python3 test.py
+
+python3 matrix_inverse.py
