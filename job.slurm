@@ -12,4 +12,4 @@
 
 module purge
 
-python3 texte.py
+python3 test.py
