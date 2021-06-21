@@ -11,6 +11,4 @@
 #SBATCH --mail-user=hdusab@lsuhsc.edu
 
 module purge
-module load anaconda
-
-python matrix_inverse.py
+python test.py
