@@ -12,4 +12,4 @@
 
 module purge
 
-python3 matrix_inverse.py
+python3 texte.py
