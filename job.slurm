@@ -13,4 +13,4 @@
 module purge
 module load anaconda2
 
-python3 test.py
+srun python3 test.py
