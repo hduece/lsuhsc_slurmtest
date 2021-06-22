@@ -11,6 +11,6 @@
 #SBATCH --mail-user=hdusab@lsuhsc.edu
 
 module purge
-module load anaconda2
+module load anaconda3
 
 srun python3 test.py
