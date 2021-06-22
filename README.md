@@ -11,5 +11,8 @@ Make sure you replace [username] with your own login for the cluster. It will pr
 
 This will run our slurm file and put our job through the scheduler, which will allocate it to a node that will then perform the computations. As stated on the [LSUHSC HPC information page](https://www.lsuhsc.edu/admin/it/hpc/information.aspx), we **must** use SLURM to run jobs. Otherwise, all jobs will run on the computationally small Tigerfish node, and performance of the clusterfor all users will be severely diminished.  
 
-7.
+6. We can check the status of our job using squeue -[your username]. A job this small will complete before we can get that command entered, and will no longer show up in the queue once completed. Using ls, we will be able to see the name of the output file, and can view it using the command "cat (filename.txt)". 
+7. File storage on the cluster is unreliable and unrecommended, so we need to move that output file back to our computer. The first step in accomplishing this is using the "pwd" command to look at our file's path, which we can then copy. 
+8. To get the file from the cluter to your computer, enter this command, substituting the pathnames as necessary.
+> scp [username]
 *Inspiration for this first SLURM job walkthrough taken from Princeton University's similar guide, HPC beginning workshop, which is located [here.](https://github.com/PrincetonUniversity/hpc_beginning_workshop)*
