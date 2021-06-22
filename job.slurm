@@ -10,7 +10,4 @@
 #SBATCH --mail-type=fail         # send email if job fails
 #SBATCH --mail-user=hdusab@lsuhsc.edu
 
-module purge
-module load anaconda3
-
-srun python3 test.py
+srun python3 test.py $SLURM_ARRAY_TASK_ID
