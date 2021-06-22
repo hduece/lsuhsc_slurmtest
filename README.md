@@ -2,4 +2,4 @@
 2. The first step is to request your account and make sure you can login to the Tigerfish cluster, as described [here.](https://www.lsuhsc.edu/admin/it/hpc/information.aspx)
 3. 
 
-*Inspiration for this first SLURM job walkthrough taken from Princeton University's similar guide, located [here.]()
+*Inspiration for this first SLURM job walkthrough taken from Princeton University's similar guide, HPC beginning workshop, which is located [here.](https://github.com/PrincetonUniversity/hpc_beginning_workshop)*
