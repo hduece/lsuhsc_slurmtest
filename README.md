@@ -1,4 +1,4 @@
-#h1 First SLURM Job on Tigerfish - Step by Step Guide
+# H1 First SLURM Job on Tigerfish - Step by Step Guide
 
 1. Download the two code files in this repository to your computer. These will be our first SLURM job.
 2. Request your account and make sure you can login to the Tigerfish cluster, as described [here.](https://www.lsuhsc.edu/admin/it/hpc/information.aspx)
