@@ -3,7 +3,7 @@
 1. Download the two code files in this repository to your computer. These will be our first SLURM job.
 2. Request your account and make sure you can login to the Tigerfish cluster, as described [here.](https://www.lsuhsc.edu/admin/it/hpc/information.aspx)
 3. We need to get our two files from your computer to the cluster. Either use cd to navigate to their directory and use this command:
->scp test.py firstjob.slurm [username]@tigerfish.lsuhsc.edu://mnt/beegfs/home/[username]
+>scp test.py firstjob.slurm [username]@tigerfish.lsuhsc.edu:/mnt/beegfs/home/[username]
 
 Make sure you replace [username] with your own login for the cluster. It will prompt you for your password, then transfer both of these files to your home directory on Tigerfish. 
 
