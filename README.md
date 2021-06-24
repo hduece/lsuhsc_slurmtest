@@ -13,6 +13,7 @@ Make sure you replace [username] with your own login for the cluster. It will pr
 
 OR
 >srun --pty bash
+
 >python3 test.py
 
 This will run our slurm file and put our job through the scheduler, which will allocate it to a node that will then perform the computations. As stated on the [LSUHSC HPC information page](https://www.lsuhsc.edu/admin/it/hpc/information.aspx), we **must** use SLURM to run jobs. Otherwise, all jobs will run on the computationally small Tigerfish node, and performance of the clusterfor all users will be severely diminished.  
