@@ -8,7 +8,7 @@
 Make sure you replace [username] with your own login for the cluster. It will prompt you for your password, then transfer both of these files to your home directory on Tigerfish. 
 
 4. Now login to the cluster using the ssh command. We can use the ls command to confirm that our files were transferred successfully.
-5. To run our file, we need to use either the sbatch or srun command on our .slurm file.
+5. To run our file, we need to use either the sbatch or srun command on our .slurm file. sbatch will do everything without intervention, while srun opens an interactive session with a node terminal.
 >sbatch firstjob.slurm 
 
 OR
