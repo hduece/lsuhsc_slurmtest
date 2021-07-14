@@ -1,0 +1,12 @@
+Some useful commands for working through the command line:
+  ls                                          # shows you what exists in the folder you are currently in
+  dir                                         # ls for Windows
+  cd                                          # moves you into a folder (cluster and windows)
+  scp /origin/file /destination/location      # to move files between cluster and computer
+  ssh username@tigerfish.lsuhsc.edu           # connects you to the cluster from your command line. Must be on campus or using LSUHSC's VPN
+  mv file /destination                        # moves a file to the folder you specify. Can also be used to rename files if your “destination” is the new name you want.  
+  sbatch file.slurm                           # runs the slurm file
+  squeue                                      # shows all currently running jobs on the cluster
+  cat filename.extension                      # opens the file for you to look at
+  slurm-number.out                            # your output files
+  scancel jobid                               # cancels the specified job
