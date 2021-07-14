@@ -11,3 +11,4 @@ Some useful commands for working through the command line:
   cat filename.extension                      # opens the file for you to look at
   slurm-number.out                            # your output files
   scancel jobid                               # cancels the specified job
+  passwd                                      # to change your password from the one given to you
